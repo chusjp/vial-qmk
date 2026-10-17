@@ -1,0 +1,38 @@
+{
+    "manufacturer": "Chus Jara Peinado",
+    "keyboard_name": "enigma",
+    "maintainer": "chusjp",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP9", "GP7", "GP5", null],
+            ["GP11", "GP10", "GP8", "GP6"]
+        ]
+    },
+    "processor": "RP2040",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "A", "matrix": [0, 0], "x": 1.75, "y": 0},
+                {"label": "B", "matrix": [0, 1], "x": 2.75, "y": 0},
+                {"label": "Enter", "matrix": [0, 2], "x": 4, "y": 0, "w": 1.25, "h": 2},
+                {"label": "C", "matrix": [1, 0], "x": 0, "y": 1},
+                {"label": "D", "matrix": [1, 1], "x": 1, "y": 1},
+                {"label": "E", "matrix": [1, 2], "x": 2, "y": 1},
+                {"label": "F", "matrix": [1, 3], "x": 3, "y": 1}
+            ]
+        }
+    }
+}

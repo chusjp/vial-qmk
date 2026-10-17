@@ -1,0 +1,37 @@
+{
+  "name": "enigma",
+  "matrix": {
+    "rows": 2,
+    "cols": 4
+  },
+  "customKeycodes": [
+    {
+      "name": "PEEK_ENT",
+      "title": "Peek / Enter: tap for Enter, hold and press a key to see on the OLED what it does",
+      "shortName": "Peek\nEnter"
+    },
+    {
+      "name": "LAYER_NEXT",
+      "title": "Switch to the next of the 4 layers (wraps around)",
+      "shortName": "Next\nLayer"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {"w": 1.75, "d": true},
+        "OLED",
+        "0,0",
+        "0,1",
+        {"x": 0.25, "w": 1.25, "h": 2, "w2": 1.5, "h2": 1, "x2": -0.25},
+        "0,2"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3"
+      ]
+    ]
+  }
+}
